@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="Languages">
+        <item>Наличные</item>
+        <item>Безналичные</item>
+    </string-array>
+    <string name="date">Дата</string>
+    <string name="fromAccounts">С счета</string>
+    <string name="toTheAccount">На счет</string>
+    <string name="sum">Cумма дохода в сомах </string>
+    <string name="sumConsumption">Cумма расхода в сомах</string>
+    <string name="fromAccount">Со счета</string>
+    <string name="categories">Категории</string>
+    <string name="project">Проект</string>
+    <string name="counterParty">Контрагент</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

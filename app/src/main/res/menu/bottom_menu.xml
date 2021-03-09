@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/transactionFragment"
+        android:icon="@drawable/ic_transactions"
+        android:title="Транзакции" />
+    <item
+        android:id="@+id/accountsFragment"
+        android:icon="@drawable/ic_accounts"
+        android:title="Счета" />
+
+    <item
+        android:id="@+id/statisticFragment"
+        android:icon="@drawable/ic_statistic"
+        android:title="Статистика" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_name"
+        android:title="Профиль"/>
+
+
+
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/transactionFragment">
+
+    <fragment
+        android:id="@+id/transactionFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.TransactionFragment"
+        android:label="Транзакции"
+        tools:layout="@layout/fragment_transaction" />
+    <fragment
+        android:id="@+id/accountsFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.AccountsFragment"
+        android:label="Счета"
+        tools:layout="@layout/fragment_accounts" />
+
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.StatisticFragment"
+        android:label="Статистика"
+        tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
